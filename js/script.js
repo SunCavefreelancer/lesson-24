@@ -233,7 +233,7 @@ if (2 * 20 <= 10 || 30 / 2 < 5 && 10 <= "10" || 20 === "20") {
 //Функція не має повертати NaN, Infinite або помилку 
 
 //ВІдповідь: 
-function divide(a, b) {
+function aerial(a, b) {
 // Перевіряємо, чи передані обидва аргументи і чи є вони числами.
 	if (typeof a === 'undefined' || typeof b === 'undefined' || 
 		typeof a !== 'number' || typeof b !== 'number') {
@@ -247,10 +247,10 @@ function divide(a, b) {
 	return "Результат ділення: " + (a / b).toString();
 }
 
-console.log(divide(10, 2));  // Результат ділення: 5
-console.log(divide(10, 0));  // Помилка: ділення на нуль.
-console.log(divide(10));     // Помилка: аргументи недійсні.
-console.log(divide());       // Помилка: аргументи недійсні.
+console.log(aerial(10, 2));  // Результат ділення: 5
+console.log(aerial(10, 0));  // Помилка: ділення на нуль.
+console.log(aerial(10));     // Помилка: аргументи недійсні.
+console.log(aerial());       // Помилка: аргументи недійсні.
 
 
 
